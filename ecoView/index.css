@@ -1,0 +1,837 @@
+html,
+body {
+    background: #fff;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.topBg {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.topBg1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(45deg, #372787 0%, #0a786f 50%, #372787 100%);
+}
+
+.topBg2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(45deg, #372787 0%, #780a62 100%);
+    opacity: .5;
+}
+
+.topBg3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: .5;
+    z-index: 2;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.topView {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.topLogo {
+    width: 15rem;
+    margin-top: 3rem;
+}
+
+.title1 {
+    width: 80%;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    line-height: 2rem;
+    margin: 5rem auto 0 auto;
+    position: relative;
+    z-index: 4;
+}
+
+.title2 {
+    width: 80%;
+    max-width: 1200px;
+    font-size: 3.6rem;
+    padding: 1rem 0 0 0;
+    margin: auto;
+    line-height: 5rem;
+    position: relative;
+    z-index: 4;
+}
+
+.title3 {
+    width: 60%;
+    max-width: 1200px;
+    font-size: 1.8rem;
+    margin: 1rem auto 0 auto;
+    line-height: 3rem;
+    text-align: left;
+    position: relative;
+    z-index: 4;
+}
+
+.title3 div {
+    margin-top: 1rem;
+}
+
+.title4 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: #ffc04e;
+}
+
+#cdEndView {
+    padding: 3rem 0 8rem 0;
+}
+
+.countdownView {
+    font-size: 6rem;
+    padding: 3rem 0 5rem 0;
+}
+
+.countdownView span {
+    position: relative;
+    z-index: 4;
+}
+
+.countdownTip {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: normal;
+}
+
+.timeView1 {
+    display: inline-block;
+    width: 8rem;
+    text-align: center;
+    background: #fff;
+    color: #373737;
+}
+
+.countdownNum .timeView1 {
+    border-radius: .5rem .5rem 0 0;
+}
+
+.countdownTip .timeView1 {
+    border-radius: 0 0 .5rem .5rem;
+    padding-bottom: 1rem;
+}
+
+.timeView2 {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.btnsView {
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.btnsView div {
+    display: inline-block;
+}
+
+.nowBtn {
+    width: 20rem;
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+.nowBtn img {
+    height: 1.5rem;
+}
+
+.whitePaperBtn {
+    background: none;
+    border: 1px solid #f8b332;
+    color: #f8b332;
+}
+
+.whitePaperBtn:hover {
+    background: none;
+    border: 1px solid #e49502;
+    color: #e49502;
+}
+
+.tip {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding: 5rem 2rem 15rem 2rem;
+    margin-top: 3rem;
+}
+
+.tip div {
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+}
+
+.moduleView1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 4;
+    opacity: 1;
+    overflow: hidden;
+    margin-top: -12rem;
+}
+
+.moduleView1 > div {
+    width: 120%;
+    height: 30rem;
+    color: #000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-left: -10%;
+    background: #fff;
+    padding: 2rem 0 6rem 0;
+}
+
+.contentView {
+    width: 900px;
+    margin: 0 auto 5rem auto;
+    color: #000;
+}
+
+.contentView2 {
+    width: 900px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.contentItem {
+    padding: 3rem 0;
+}
+
+.moduleView2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+.moduleView2 .contentItem {
+    position: relative;
+    z-index: 1;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.moduleView2 .contentTitle {
+    color: #fff;
+}
+
+.moduleView2 .contentTitle2 {
+    color: #fff;
+}
+
+.moduleView2 .contentCnt {
+    color: #fff;
+}
+
+.contentTitle {
+    font-size: 4rem;
+    padding: 2rem 0 1rem 0;
+    color: #2b3045;
+}
+
+.contentTitle2 {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #2b3045;
+}
+
+.contentCnt {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    text-align: left;
+    color: #666;
+}
+
+.userItem {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: .5rem;
+    text-align: left;
+    color: #000;
+    padding: 1.5rem 2rem;
+    background-color: #ebebf5;
+}
+
+.userHead {
+    width: 8rem;
+    height: 100%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.userHead img {
+    width: 8rem;
+    border: 2px solid #fff;
+    border-radius: 4rem;
+    background-color: #fff;
+}
+
+.userName {
+    line-height: 3rem;
+}
+
+.userDesc {
+    min-height: 5rem;
+    margin-left: 10rem;
+    font-size: 1.2rem;
+}
+
+.contactsView {
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    line-height: 3rem;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+}
+
+.contactsView div {
+    width: 50%;
+    float: left;
+}
+
+.contactsView img {
+    width: 1.5rem;
+    margin-right: 0;
+    vertical-align: middle;
+}
+
+.joinBtnView {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 2rem 0;
+}
+
+.joinBtn {
+    width: 40rem;
+    font-size: 2.8rem;
+    margin: auto;
+}
+
+.imgAbout {
+    max-width: 95%;
+    margin-top: -1rem;
+}
+
+.imgRela {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.icoTip {
+    padding: 0 0 3rem 0;
+}
+
+.progressView {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progressView div{
+    position: relative;
+    z-index: 4;
+}
+
+.progressBg {
+    width: 100%;
+    /*height: 12px;*/
+    /*border-radius: 7px;*/
+    height: 22px;
+    border-radius: 12px;
+}
+
+.progressPer {
+    margin-top: 3rem;
+}
+
+.progressTotal {
+    margin-top: 3rem;
+}
+
+.progressText {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    padding: 0 .2rem;
+    color: #fff;
+}
+
+.progressTextNum {
+    opacity: 0;
+}
+
+.progressText_orange {
+    /*color: #ffc04e;*/
+}
+
+.progressText_blue {
+    /*color: #29f2ff;*/
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+    font-size: 1rem;
+}
+
+.progressBg_orange {
+    /*border: 1px solid #ffc04e;*/
+}
+
+.progressBg_blue {
+    border: 1px solid #29f2ff;
+}
+
+.progressFg {
+    width: 0;
+    /*height: 12px;*/
+    /*border-radius: 6px;*/
+    height: 22px;
+    border-radius: 11px;
+}
+
+.progressFg_orange {
+    background: linear-gradient(to Right, #ffc04e 95.9%, #d00c0c 4.1%);
+}
+
+.progressFg_blue {
+    background: #29f2ff;
+}
+
+.progressFg_blue2 {
+    background: linear-gradient(to right, #29f2ff 80%, rgba(41, 242, 255, 0));
+}
+
+/*eco*/
+.ecoView {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    background-image: linear-gradient(45deg, #372787 0%, #0a786f 50%, #372787 100%);
+}
+
+.ecoView > .ecosystem {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 0;
+    /*perspective: 1000px;*/
+    perspective-origin: 50% 0;
+    transform-style: preserve-3d !important;
+}
+
+.ecosystem .tnb {
+    position: absolute;
+    background: url("./images/eco/img_tnb.png") no-repeat center center;
+    background-size: contain;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.orbit {
+    /*border: 2px solid rgba(255, 0, 0, .6);*/
+    /*box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, .6);*/
+    border-radius: 50%;
+    position: absolute;
+    transform-style: preserve-3d !important;
+    animation: orbitrotate 50s linear 0s normal none infinite;
+}
+
+.planet {
+    position: absolute;
+    transform-style: preserve-3d !important;
+    transform: rotateX(-90deg) rotateY(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+@keyframes orbitrotate {
+    0% {
+        transform: rotateX(65deg) rotateY(-5deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(65deg) rotateY(-5deg) rotateZ(-360deg);
+    }
+}
+
+.planet .ball {
+    background-size: 100% 100%;
+    transform-origin: 50% 50% 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: rotateX(-90deg) rotateY(0deg);
+    animation: planetrotate 50s linear 0s normal none infinite;
+}
+
+@keyframes planetrotate {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(5deg);
+    }
+    100% {
+        transform: rotateX(0deg) rotateY(-360deg) rotateZ(5deg);
+    }
+}
+
+.orbit.jupiter {
+    height: 740px;
+    width: 740px;
+    left: 50%;
+    /*top: -30px;*/
+    top: -100px;
+    margin-left: -370px;
+    animation-duration: 50s;
+}
+
+.orbit.jupiter2 {
+    height: 1200px;
+    width: 1200px;
+    left: 50%;
+    top: -300px;
+    margin-left: -600px;
+    animation-duration: 50s;
+}
+
+.orbit.jupiter > .planet {
+    height: 220px;
+    width: 200px;
+}
+
+.orbit.jupiter > .planet1 {
+    left: 65%;
+    top: -8%;
+}
+
+.orbit.jupiter > .planet2 {
+    right: -13%;
+    top: 30%;
+}
+
+.orbit.jupiter > .planet3 {
+    bottom: -3%;
+    left: 70%;
+}
+
+.orbit.jupiter > .planet4 {
+    left: 30%;
+    bottom: -14%;
+}
+
+.orbit.jupiter > .planet5 {
+    left: -4%;
+    bottom: 5%;
+}
+
+.orbit.jupiter > .planet6 {
+    left: -10%;
+    top: 15%;
+}
+
+.orbit.jupiter > .planet7 {
+    left: 20%;
+    top: -12%;
+}
+
+.orbit.jupiter > .planet > .ball {
+    animation-duration: 50s;
+}
+
+.ecosystemBg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+}
+
+.border1 {
+    height: 1200px;
+    width: 1200px;
+    box-shadow: 0 2px 1px 2px rgba(255, 255, 255, .6);
+    border-radius: 50%;
+    transform: rotateX(65deg) rotateY(-5deg) rotateZ(0deg);
+    position: absolute;
+    top: -300px;
+}
+
+.border2 {
+    height: 740px;
+    width: 740px;
+    box-shadow: 0 2px 1px 2px rgba(255, 255, 255, .6);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+
+/*eco end*/
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    .contentView {
+        width: 90%;
+    }
+
+    .topLogo {
+        width: 10rem;
+    }
+
+    .title1 {
+        font-size: 1rem;
+        padding-top: 0;
+        line-height: 2rem;
+    }
+
+    .title2 {
+        font-size: 1.8rem;
+        padding: 1rem 1rem 0 1rem;
+        line-height: 2.6rem;
+    }
+
+    .title3 {
+        width: 90%;
+        max-width: 100%;
+        font-size: 1.4rem;
+        margin: auto;
+        line-height: 2rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .title3 div {
+        margin-top: 1rem;
+    }
+
+    .title4 {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    .progressView {
+        width: 90%;
+    }
+
+    .progressTotal {
+        margin-top: 1rem;
+    }
+
+    .progressText {
+        font-size: 1rem;
+    }
+
+    #cdEndView {
+        padding: 0 0 4rem 0;
+        font-size: 2.4rem;
+    }
+
+    .countdownView {
+        font-size: 4rem;
+    }
+
+    .countdownTip {
+        font-size: 1rem;
+    }
+
+    .timeView1 {
+        width: 5rem;
+    }
+
+    .timeView2 {
+        width: 2rem;
+    }
+
+    .nowBtn {
+        width: 90%;
+        font-size: 1.8rem;
+        margin-top: .5rem;
+    }
+
+    .tip {
+        padding: 2rem 1rem 6rem 1rem;
+        font-size: 1rem;
+    }
+
+    .contentItem {
+        padding: 1rem 0;
+    }
+
+    .contentTitle {
+        font-size: 2.2rem;
+        padding: 1rem 0 0 0;
+    }
+
+    .contentTitle2 {
+        font-size: 1.8rem;
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+
+    .contentCnt {
+        font-size: 1rem;
+    }
+
+    .joinBtn {
+        width: 80%;
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    .userItem {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .userHead {
+        width: 6rem;
+        margin-right: 1rem;
+    }
+
+    .userHead img {
+        width: 6rem;
+    }
+
+    .userDesc {
+        min-height: 3rem;
+        margin-left: 7rem;
+    }
+
+    .moduleView1 {
+        margin-top: -3rem;
+    }
+
+    .moduleView1 > div {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding: 2rem 0 0 0;
+        margin-left: 0;
+    }
+
+    .contactsView {
+        width: 100%;
+        padding-bottom: 10rem;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .contactsView div {
+        width: 100%;
+    }
+
+    .contentView2 {
+        width: 90%;
+        margin: 0 auto;
+        color: #000;
+    }
+
+    .imgAbout {
+        margin-top: 0;
+    }
+
+    .ecoView {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .ecoView > .ecosystem {
+        width: 100%;
+    }
+
+    .ecosystem .tnb {
+        width: 5rem;
+        height: 5rem;
+        top: 7rem;
+        left: 50%;
+        margin-left: -2.5rem;
+    }
+
+    .orbit.jupiter {
+        height: 20rem;
+        width: 20rem;
+        left: 50%;
+        top: -1rem;
+        margin-left: -10rem;
+    }
+
+    .orbit.jupiter2 {
+        height: 30rem;
+        width: 30rem;
+        left: 50%;
+        top: -5rem;
+        margin-left: -15rem;
+    }
+
+    .orbit.jupiter > .planet {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .ecosystemBg {
+        width: 30rem;
+        height: 20rem;
+        position: relative;
+        top: 0;
+        left: 50%;
+        margin-left: -15rem;
+    }
+
+    .border1 {
+        height: 30rem;
+        width: 30rem;
+        top: -5rem;
+    }
+
+    .border2 {
+        height: 20rem;
+        width: 20rem;
+        margin-top: 4rem;
+    }
+
+}
